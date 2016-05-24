@@ -16,6 +16,7 @@ def login():
         print "please input your ID card num:"
         id= raw_input()
         print "please input your password:"
+
         pwd=raw_input()
         print "Connect...."
         data =urllib.urlencode({'DDDDD' : id, 'upass' : pwd,'0MKKey':''})
